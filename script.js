@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Delay the popup to allow confetti explosion to finish
         setTimeout(function() {
             giftPopup.classList.add('show');
-        }, 1500); // 1.5 seconds delay
+        },500); // 1.5 seconds delay
     });
 
     closeBtn.addEventListener('click', function() {
