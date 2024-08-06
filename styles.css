@@ -65,6 +65,7 @@ body {
     background-color: #d93199;
     color: #fff;
     text-decoration: none;
+    box-shadow: 0 0 10px rgba(31, 170, 188, 0.5);
 }
 
 #giftPopup {
@@ -138,7 +139,7 @@ body {
     .popup-content img {
         max-width: 150px;
         padding: 20px;
-        border-radius: 20px;
+        border-radius: 10px;
         box-shadow: 0 0 10px #69edff80;
 
     }
@@ -146,6 +147,8 @@ body {
     #giftLink {
         font-size: 14px;
         padding: 8px 16px;
+        text-shadow: 2px 2px #ff0000;
+
     }
 }
 
