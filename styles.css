@@ -201,7 +201,7 @@ body {
     padding: 20px;
     /* background: rgba(255, 255, 255, 0.8); */
     background-color: transparent rgb(98, 224, 209) ;
-    opacity: 0.8;
+    opacity: 0.9;
     border: 2px solid #d93199;
     box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
     border-radius: 15px;
@@ -222,6 +222,7 @@ body {
 .popup-content {
     text-align: center;
     color: #fff;
+    opacity: .9;
 }
 
 .popup-content img {
@@ -230,7 +231,7 @@ body {
     max-width: 200px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    opacity: 1;
+    opacity: 3;
 }
 
 .close-btn {
@@ -254,10 +255,15 @@ body {
     #giftPopup {
         width: 90%;
         max-width: 90%;
+        padding: 20px;
     }
 
     .popup-content img {
         max-width: 150px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #69edff80;
+
     }
 
     #giftLink {
@@ -270,14 +276,15 @@ body {
     #giftPopup {
         width: 80%;
         max-width: 90%;
-        padding: 45px;
-        margin: 40px;
+        padding: 20px;
     }
 
     .popup-content img {
         max-width: 180px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(31, 170, 188, 0.5);
 
-        opacity: 0.2;
     }
 
     #giftLink {
